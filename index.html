@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/fav.png" type="image/x-icon" />
+    <title>tailwindcss-bootcamp-project_01</title>
+
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome add  -->
+    <script
+      src="https://kit.fontawesome.com/aa3083dcb0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- add tailwindcss  -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+   
+  </head>
+  <body class="font-sans">
+    <div class="container bg-white mx-auto">
+      <nav class="flex justify-between items-center py-4">
+        <h2 class="font-bold text-3xl capitalize">nerdy</h2>
+        <ul class="text-[18px] flex gap-10 capitalize text-gray-500">
+          <li>home</li>
+          <li>projects</li>
+          <li>about</li>
+
+          <!-- font awesome add  -->
+          <li>contact</li>
+        </ul>
+        <button class="bg-[#DBFB7B] py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide" >buy now</button>
+      </nav>
+
+     <section id="hero-section" class="flex justify-between gap-4 py-12 ">
+            <div id="left-contents" class="w-1/2 space-y-6 mt-10">
+                <p class="text-6xl font-sans font-bold leading-tight">Designed to <br> combine style and functionality.</p>
+                <p class="text-[18px]">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through a diverse range of challenges for all experience levels.</p>
+                <button class="bg-[#DBFB7B] py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide" >explore deal</button>
+            </div>
+            <div id="right-contents">
+                <img src="./images/women.png" alt="">
+            </div>
+     </section>
+
+     <section id="products" class="py-10">
+        <div id="prodcuts-slug" class="text-center mx-auto space-y-6 w-7/12">
+            <h2 class="font-bold text-3xl capitalize">Best Selling Products</h2>
+            <p class="text-[18px]">Unlock your potential with Phitron's Online Judge, a dynamic platform for honing your coding skills through a diverse range of challenges for all experience levels.</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-10 py-14">
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+            <div id="product-card" class="border-2 border-gray-200 p-6 rounded-2xl shadow-lg">
+                <div class="flex-col max-w-full">
+                    <img width="100%" class="bg-gray-100 rounded-xl p-10"  src="./images/man.png" alt="this man images">
+                    <p class="text-[18px] font-bold py-2">Balenciaga Floral-Print Silk Shirt</p>
+                    <p class="text-gray-500 font-bold ">$1644.00</p>
+                    <button class="bg-[#DBFB7B] py-2 my-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide min-w-full" >buy now deal</button>
+                </div>
+                <div class="flex items-center justify-between py-4">
+                    <button class="shadow-xl py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide w-10/12" >add to cart</button>
+                    <i class="fa-solid fa-heart h-12 w-12 text-gray-400  border-2 hover:border-red-400 hover:text-red-400 hover:cursor-pointer flex items-center justify-center rounded-full "></i>
+                </div>
+            </div>
+           
+        </div>
+     </section>
+    </div>
+
+    <div id="footer" class="bg-gray-100 py-10">
+        <footer class="w-8/12 space-y-10 text-center mx-auto py-4">
+            <h2 class="font-bold text-4xl capitalize">nerdy</h2>
+            <ul class="text-[18px] flex gap-10 capitalize text-gray-500 justify-center">
+              <li>home</li>
+              <li>projects</li>
+              <li>about</li>
+    
+              <!-- font awesome add  -->
+              <li>contact</li>
+            </ul>
+             <div id="social-icons" class="flex items-center justify-center ">
+
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook  text-blue-700 flex items-center justify-center  h-12 w-12  border-2 hover:border-blue-700 hover:text-blue-700 hover:cursor-pointer  rounded-full"></i></a>
+                <a href="https://x.com/"><i class="fa-brands fa-square-x-twitter flex items-center justify-center  h-12 w-12   border-2 hover:border-black  hover:cursor-pointer  rounded-full"></i></a>
+                <a href="https://bd.linkedin.com/"><i class="fa-brands fa-linkedin flex items-center justify-center   h-12 w-12   border-2 text-blue-400 hover:border-blue-500 hover:text-blue-500 hover:cursor-pointer  rounded-full"></i> </i></a>
+                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube flex items-center justify-center   h-12 w-12  border-2 text-red-500 hover:border-red-500 hover:text-red-500 hover:cursor-pointer rounded-full"></i></a></i></a>
+
+             </div>
+             <div class="flex gap-10 py-10">
+                <input type="email" placeholder="Enter your email address" class="w-8/12 rounded-full border-2  px-4 py-4 shadow-lg" >
+                <button class="bg-[#DBFB7B]  py-3 px-10 rounded-full capitalize text-xl font-semibold tracking-wide" >subscribe</button>
+             </div>
+          </footer>
+    </div>
+  </body>
+</html>
